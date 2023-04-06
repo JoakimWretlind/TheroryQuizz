@@ -39,6 +39,7 @@ export const Card = styled.div`
     background-color: ${(props) => props.theme.grayLight};
     color: ${(props) => props.theme.black};
     font-size: 1.6rem;
+    text-align: center;
   }
   &.back {
     transform: rotateY(180deg);
