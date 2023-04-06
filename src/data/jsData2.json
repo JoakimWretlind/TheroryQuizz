@@ -2,7 +2,7 @@
   {
     "id": 3001,
     "question": "What is JavaScript?",
-    "answer": "JavaScript is a client-side scripting language. It is an object-oriented programming language that is used to generate websites and applications.",
+    "answer": "JS is an object-oriented scripting language for the client side.",
     "category": "javascript2"
   },
   {
@@ -14,13 +14,13 @@
   {
     "id": 3003,
     "question": "What are JavaScript Data Types?",
-    "answer": "*Number, *String, *Boolean, *Object, *Undefined",
+    "answer": "Booleans, Objects, Numbers, Undefined, Strings",
     "category": "javascript2"
   },
   {
     "id": 3004,
     "question": "What is the use of isNaN function?",
-    "answer": "isNan function returns true if the argument is not a number; otherwise, it is false.",
+    "answer": "isNan returns true if the argument is not a number. Otherwise, it is false.",
     "category": "javascript2"
   },
   {
@@ -32,19 +32,19 @@
   {
     "id": 3006,
     "question": "What are undeclared variables?",
-    "answer": "Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered.",
+    "answer": "Variables that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered.",
     "category": "javascript2"
   },
   {
     "id": 3007,
     "question": "What are undefined variables?",
-    "answer": "Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.",
+    "answer": "Variables that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.",
     "category": "javascript2"
   },
   {
     "id": 3008,
     "question": "What are global variables?",
-    "answer": "Global variables are available throughout the length of the code so that it has no scope.",
+    "answer": "Variables that are available throughout the length of the code so that it has no scope.",
     "category": "javascript2"
   },
   {
