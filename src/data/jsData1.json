@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "question": "What are bits?",
+    "answer": "Any kind of two-valued things, usually described as zeros and ones.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 2,
+    "question": "What are values?",
+    "answer": "Chunks of bits.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 3,
+    "question": "How many bits are used to store a number?",
+    "answer": "64",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 4,
+    "question": "What does the Unicode standard do?",
+    "answer": "It assigns a number to every character.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 5,
+    "question": "What do you call operators that takes only one operator?",
+    "answer": "Unary.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 6,
+    "question": "What do you call operators that takes two operators?",
+    "answer": "Binary.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 7,
+    "question": "What do you call operators that takes three operators?",
+    "answer": "Ternary (or conditional). For example console.log(false ? 1 : 2); // => 2",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 8,
+    "question": "How does JS compare strings?",
+    "answer": "JavaScript goes over the characters from left to right, comparing the Unicode codes one by one.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 9,
+    "question": "Are 'null' and 'undefined' values?",
+    "answer": "Yes, but they carry no information.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 10,
+    "question": "What is 'type coercion'?",
+    "answer": "When an operator is applied to the “wrong” type of value, JavaScript will quietly convert that value to the type it needs.",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  },
+  {
+    "id": 11,
+    "question": "How can you test if a value has a real value instead of 'null' or 'undefned'?",
+    "answer": "You can compare the value to null with the == (or !=) operator",
+    "chapter": "chapter1",
+    "category": "javascript1"
+  }
+]

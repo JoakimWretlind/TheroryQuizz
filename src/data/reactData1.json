@@ -1,0 +1,253 @@
+[
+  {
+    "id": 2001,
+    "question": "What are HigherOrderComponents (HOCs)?",
+    "answer": "HOCs transforms a component into another component.",
+    "category": "react1"
+  },
+  {
+    "id": 2002,
+    "question": "How does a component transform props?",
+    "answer": "Into UI.",
+    "category": "react1"
+  },
+  {
+    "id": 2003,
+    "question": "What is code-splitting?",
+    "answer": " allows us to split a large bundle file into multiple chunks using dynamic import() followed by lazy loading these chucks when we need them with React.lazy.",
+    "category": "react1"
+  },
+  {
+    "id": 2004,
+    "question": "What is a component?",
+    "answer": "A piece of the UI (user interface) that has its own logic and appearance.",
+    "category": "react1"
+  },
+  {
+    "id": 2005,
+    "question": "What are the features of React?",
+    "answer": "JSX, Components, Virtual DOM, One-way data-binding, High performance.",
+    "category": "react1"
+  },
+  {
+    "id": 2006,
+    "question": "What is JSX?",
+    "answer": "A syntax extension to JavaScript.",
+    "category": "react1"
+  },
+  {
+    "id": 2007,
+    "question": "How is JSX used and to what purpose?",
+    "answer": "It is used with React to describe what the user interface should look like.",
+    "category": "react1"
+  },
+  {
+    "id": 2008,
+    "question": "What is the relation between JSX, HTML and JS?",
+    "answer": "By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "category": "react1"
+  },
+  {
+    "id": 2009,
+    "question": "What does components do?",
+    "answer": "It splits the user interface into independent, reusable parts that can be processed separately.",
+    "category": "react1"
+  },
+  {
+    "id": 2010,
+    "question": "What does the virtual DOM do?",
+    "answer": "It keeps a lightweight representation of the real DOM in the memory.",
+    "category": "react1"
+  },
+  {
+    "id": 2011,
+    "question": "What happens with the virtual DOm when the state of an object changes?",
+    "answer": "Virtual DOM changes only that object in the real DOM, rather than updating all the objects.",
+    "category": "react1"
+  },
+  {
+    "id": 2012,
+    "question": "What does react's one-way data binding do?",
+    "answer": "It keeps everything modular and fast.",
+    "category": "react1"
+  },
+  {
+    "id": 2013,
+    "question": "What means with a unidirectional data flow?",
+    "answer": "It means that when designing a React app, you often nest child components within parent components.",
+    "category": "react1"
+  },
+  {
+    "id": 2014,
+    "question": "How can react be high performance?",
+    "answer": "React updates only those components that have changed, rather than updating all the components at once.",
+    "category": "react1"
+  },
+  {
+    "id": 2015,
+    "question": "How is JSX used?",
+    "answer": "It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "category": "react1"
+  },
+  {
+    "id": 2016,
+    "question": "Can web browsers read JSX directly?",
+    "answer": "No",
+    "category": "react1"
+  },
+  {
+    "id": 2017,
+    "question": "Why can't web browsers read JSX directly?",
+    "answer": "Because they are built to only read regular JS objects and JSX is not a regular JavaScript object.",
+    "category": "react1"
+  },
+  {
+    "id": 2018,
+    "question": "What is needed for a web browser to read a JSX file?",
+    "answer": "It needs to be transformed into a regular JavaScript object. For this, we use Babel.",
+    "category": "react1"
+  },
+  {
+    "id": 2019,
+    "question": "What does DOM stands for?",
+    "answer": "Document Object Model.",
+    "category": "react1"
+  },
+  {
+    "id": 2020,
+    "question": "What is the DOM?",
+    "answer": "The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.",
+    "category": "react1"
+  },
+  {
+    "id": 2021,
+    "question": "What is an event in React?",
+    "answer": "An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc.",
+    "category": "react1"
+  },
+  {
+    "id": 2022,
+    "question": "How do you pass the event handler with JSX?",
+    "answer": "As a function. <Button onPress={lightItUp} />",
+    "category": "react1"
+  },
+  {
+    "id": 2023,
+    "question": "What does synthetic events in React do?",
+    "answer": "They  combine the response of different browser's native events into one API, ensuring that the events are consistent across different browsers.",
+    "category": "react1"
+  },
+  {
+    "id": 2024,
+    "question": "What is the outcome of synthetic events?",
+    "answer": "The application is consistent regardless of the browser it is running in.",
+    "category": "react1"
+  },
+  {
+    "id": 2025,
+    "question": "how are lists displayed in React?",
+    "answer": "Lists display data in an ordered format.",
+    "category": "react1"
+  },
+  {
+    "id": 2026,
+    "question": "Why is there a need for using keys in Lists?",
+    "answer": "1) A key is a unique identifier and it is used to identify which items have changed, been updated or deleted from the lists.",
+    "answer2": "2) It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time.",
+    "category": "react1"
+  },
+  {
+    "id": 2027,
+    "question": "What is an arrow function and how is it used in React?",
+    "answer": "An arrow function is a short way of writing a function to React.",
+    "category": "react1"
+  },
+  {
+    "id": 2028,
+    "question": "What are props in React?",
+    "answer": "Allows to pass data from one component to other components as an argument.",
+    "category": "react1"
+  },
+  {
+    "id": 2029,
+    "question": "What is state?",
+    "answer": "Holds information about the components.",
+    "category": "react1"
+  },
+  {
+    "id": 2030,
+    "question": "Swedish word for mutable?",
+    "answer": "Föränderlig",
+    "category": "react1"
+  },
+  {
+    "id": 2031,
+    "question": "How is state's mutability?",
+    "answer": "Is mutable. (föränderlig)",
+    "category": "react1"
+  },
+  {
+    "id": 2032,
+    "question": "How is props's mutability?",
+    "answer": "Are immutable. (oföränderlig)",
+    "category": "react1"
+  },
+  {
+    "id": 2033,
+    "question": "How is state's read-only?",
+    "answer": "Can be changed",
+    "category": "react1"
+  },
+  {
+    "id": 2034,
+    "question": "How is props's read-only?",
+    "answer": "Are read-only",
+    "category": "react1"
+  },
+  {
+    "id": 2033,
+    "question": "Can child components access state?",
+    "answer": "No",
+    "category": "react1"
+  },
+  {
+    "id": 2034,
+    "question": "Can child components access props?",
+    "answer": "Yes",
+    "category": "react1"
+  },
+  {
+    "id": 2035,
+    "question": "What is React?",
+    "answer": "React is a front-end JavaScript library developed by Facebook in 2011.",
+    "category": "react1"
+  },
+  {
+    "id": 2036,
+    "question": "How does React work?",
+    "answer": "It follows the component based approach which helps in building reusable UI components.",
+    "category": "react1"
+  },
+  {
+    "id": 2037,
+    "question": "What are 3 features of React?",
+    "answer": "It uses the virtual DOM instead of the real DOM.",
+    "answer2": "It uses server-side rendering.",
+    "answer3": "It follows uni-directional data flow or data binding.",
+    "category": "react1"
+  },
+  {
+    "id": 2038,
+    "question": "What are 3 limitations of React?",
+    "answer": "React is just a library, not a full-blown framework.",
+    "answer2": "Its library is very large and takes time to understand.",
+    "answer3": "Coding gets complex as it uses inline templating and JSX.",
+    "category": "react1"
+  },
+  {
+    "id": 2039,
+    "question": "What is JSX shorthand for?",
+    "answer": "JavaScript XML.",
+    "category": "react1"
+  }
+]
