@@ -44,7 +44,6 @@ export const FilteredButton = styled.button`
   margin: 0.5rem;
   font-family: "Bebas Neue", cursive;
   font-size: 2.2rem;
-  letter-spacing: 0rem;
   background-color: ${(props) => props.theme.black};
   color: ${(props) => props.theme.white};
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);

@@ -14,7 +14,7 @@ type CategoryProps = {
 };
 
 export const FilterButtons = ({ setCategory }: CategoryProps) => {
-  const [isActive, setIsActive] = useState<SetStateAction<number>>(0);
+  const [isActive, setIsActive] = useState<SetStateAction<number>>();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const handleClick = (path: string, index: number) => {

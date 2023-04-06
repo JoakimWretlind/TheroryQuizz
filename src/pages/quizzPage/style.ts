@@ -9,6 +9,7 @@ export const MainWrapper = styled.div`
 `;
 
 export const PageWrapper = styled.div`
+  position: relative;
   height: 100%;
   min-height: 100vh;
   width: 100%;
@@ -34,4 +35,17 @@ export const CardSection = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 2rem;
+`;
+
+export const HeaderWrapper = styled.div`
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  h2 {
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    font-size: 5rem;
+    color: ${(props) => props.theme.black};
+  }
 `;

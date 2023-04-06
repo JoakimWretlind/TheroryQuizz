@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FilterButtons } from "../../components/filterButtons";
-import { CardSection, MainWrapper, PageWrapper } from "./style";
+import { CardSection, HeaderWrapper, MainWrapper, PageWrapper } from "./style";
 import { allData } from "../../data/allData.json";
 import ICategories from "../../components/interfaces/ICategories";
 import { QuizzCard } from "../../components/quizzCard";
@@ -10,7 +10,7 @@ export const QuizzPage = () => {
 
   const filteredProducts = allData?.filter((item) => {
     if (category.toLowerCase() === "") {
-      return item;
+      return null;
     } else if (item.category.toLowerCase().includes(category)) {
       return item;
     }
@@ -22,7 +22,9 @@ export const QuizzPage = () => {
         <h1>{category}</h1>
         <CardSection>
           {!filteredProducts?.length ? (
-            <h2>We are sorry, we can not find what you are looking for.</h2>
+            <HeaderWrapper>
+              <h2>Pick a category to get questions!</h2>
+            </HeaderWrapper>
           ) : (
             filteredProducts?.map((product: ICategories) => {
               return (
