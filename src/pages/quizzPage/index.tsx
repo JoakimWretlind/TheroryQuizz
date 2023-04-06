@@ -6,6 +6,7 @@ import ICategories from "../../components/interfaces/ICategories";
 import { QuizzCard } from "../../components/quizzCard";
 
 export const QuizzPage = () => {
+  console.log(allData);
   const [category, setCategory] = useState<string>("");
 
   const filteredProducts = allData?.filter((item) => {
