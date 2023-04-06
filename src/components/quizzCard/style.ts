@@ -36,18 +36,18 @@ export const Card = styled.div`
     transform: rotateY(180deg);
   }
   &.front {
-    left: 0;
     background-color: ${(props) => props.theme.grayLight};
     color: ${(props) => props.theme.black};
+    font-size: 1.6rem;
   }
   &.back {
     transform: rotateY(180deg);
     color: #fff;
     background-color: ${(props) => props.theme.black};
+    font-size: 1.4rem;
   }
 `;
 
 export const P = styled.p`
-  font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
 `;

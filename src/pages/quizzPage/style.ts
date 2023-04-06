@@ -14,7 +14,7 @@ export const PageWrapper = styled.div`
   min-height: 100vh;
   width: 100%;
   max-width: 160rem;
-  padding: 18rem 3rem 7rem 3rem;
+  padding: 18rem 1rem 7rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,8 +33,11 @@ export const CardSection = styled.div`
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
   gap: 2rem;
+  @media (min-width: 320px) {
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  }
 `;
 
 export const HeaderWrapper = styled.div`
