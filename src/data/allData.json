@@ -399,6 +399,58 @@
       "question": "What is JSX shorthand for?",
       "answer": "JavaScript XML.",
       "category": "react1"
+    },
+    {
+      "id": 4001,
+      "question": "What does the acrony GLSL stand for?",
+      "answer": "OpenGL Shading Language.",
+      "category": "glsl"
+    },
+    {
+      "id": 4002,
+      "question": "What is GLSL?",
+      "answer": "It's own language, similar to C.",
+      "category": "glsl"
+    },
+    {
+      "id": 4003,
+      "question": "Why do we use THREE.js for GLSL?",
+      "answer": "It makes wrking with GLSL much easier.",
+      "category": "glsl"
+    },
+    {
+      "id": 4004,
+      "question": "What components does each GLSL shader have?",
+      "answer": "The fragment Shader.",
+      "answer2": "The vertex Shader.",
+      "category": "glsl"
+    },
+    {
+      "id": 4005,
+      "question": "What does the fragment shader control?",
+      "answer": "The color of a pixel.",
+      "category": "glsl"
+    },
+    {
+      "id": 4006,
+      "question": "What does the vertex shader control?",
+      "answer": "The moving of a vertex from object space to clip space.",
+      "category": "glsl"
+    },
+    {
+      "id": 4007,
+      "question": "A vertex has a position in three directions. Which, and what do they represent?",
+      "answer": "X: left and right.",
+      "answer2": "Y: up and down.",
+      "answer3": "Z: forward/ backward.",
+      "category": "glsl"
+    },
+    {
+      "id": 4008,
+      "question": "What are the processes of rendering a shape?",
+      "answer": "Position the vertecies.",
+      "answer2": "Color the pixels.",
+      "category": "glsl"
     }
   ]
 }
